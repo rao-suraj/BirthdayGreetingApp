@@ -14,6 +14,6 @@ class cardDisplayActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_card_display)
        val name =intent.getStringExtra(PERSON_NAME)
-        textView.text="Happy Birthday $name"
+        textView.text="Happy wedding $name"
     }
 }
